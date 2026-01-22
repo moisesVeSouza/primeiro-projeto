@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# React Native
+android/app/build/
+ios/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# executáveis
+*.exe
+
+# assets grandes
+front/src/assets/*.exe

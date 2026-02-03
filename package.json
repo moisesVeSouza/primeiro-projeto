@@ -13,6 +13,8 @@
   "dependencies": {
     "date-fns": "^4.1.0",
     "express": "^4.22.1",
+    "pg": "^8.18.0",
+    "typeorm": "^0.3.28",
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {

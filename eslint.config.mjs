@@ -21,7 +21,9 @@ export default [
     rules: {
       "no-use-before-define": "off",
       "@typescript-eslint/no-use-before-define": "error",
-
+      "@typescript-eslint/no-unused-vars": ["error", {
+        "argsIgnorePattern": "_",
+      }],
       "prettier/prettier": "error",
 
       "import/extensions": [
